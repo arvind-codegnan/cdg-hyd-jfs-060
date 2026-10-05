@@ -8,7 +8,6 @@
 Implementation requirements:
 
 - Use two classes: one to own the arrays and perform operations, and one to contain `main()` and handle the menu.
-- Keep array fields private.
 - Use `Scanner`, loops, conditions, and methods.
 - Display the menu repeatedly until Exit is selected.
 - Keep records in memory while the program runs.
@@ -76,11 +75,11 @@ Use day numbers 1 to 7 for Monday to Sunday. Display monetary values to two deci
 Suggested fields in `ExpenseTracker`:
 
 ```java
-private String[] dayNames = {
+public String[] dayNames = {
     "Monday", "Tuesday", "Wednesday", "Thursday",
     "Friday", "Saturday", "Sunday"
 };
-private int[] expenses = new int[7];
+public int[] expenses = new int[7];
 ```
 
 | Suggested method | Responsibility |
