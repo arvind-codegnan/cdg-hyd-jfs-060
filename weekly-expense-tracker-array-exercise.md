@@ -2,7 +2,6 @@
 
 ## Weekly Expense Tracker Array Exercise
 
-**Level:** Beginner  
 **Application:** Interactive console application  
 **Approach:** Object-oriented programming with arrays
 
