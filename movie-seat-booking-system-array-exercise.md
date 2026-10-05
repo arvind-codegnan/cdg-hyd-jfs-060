@@ -8,7 +8,6 @@
 Implementation requirements:
 
 - Use two classes: one to own the arrays and perform operations, and one to contain `main()` and handle the menu.
-- Keep array fields private.
 - Use `Scanner`, loops, conditions, and methods.
 - Display the menu repeatedly until Exit is selected.
 - Keep records in memory while the program runs.
