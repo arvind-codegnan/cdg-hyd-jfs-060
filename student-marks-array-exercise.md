@@ -1,4 +1,4 @@
-# Java Array Exercise: Student Marks Register
+# Student Marks Array Exercise
 
 **Level:** Beginner  
 **Application:** Interactive console application  
