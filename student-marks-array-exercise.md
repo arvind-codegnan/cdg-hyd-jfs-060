@@ -1,8 +1,8 @@
-# Beginner Java Array Exercise: Student Marks Register
+# Java Array Exercise: Student Marks Register
 
 **Level:** Beginner  
 **Application:** Interactive console application  
-**Approach:** Object-oriented programming with a one-dimensional `int[]`
+**Approach:** Object-oriented programming with a one-dimensional array
 
 ## 1. Problem statement
 
@@ -67,11 +67,10 @@ Create two classes.
 
 This class owns the array and performs operations on it.
 
-Suggested private fields:
+Suggested fields:
 
 ```java
-private int[] marks = new int[5];
-private int count = 0;
+public int[] marks = new int[5];
 ```
 
 | Suggested method | Responsibility |
@@ -181,5 +180,5 @@ Each row describes a separate case.
 - Ensure updating a mark does not change the number of recorded students.
 - Produce the sample results and handle the validation cases above.
 
-**Skills practised:** arrays, indexes, loops, conditions, classes, objects, methods, encapsulation, and console input.
+**Skills practised:** arrays, indexes, loops, conditions, classes, objects, methods, and console input.
 
