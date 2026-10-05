@@ -8,7 +8,6 @@
 Implementation requirements:
 
 - Use two classes: one to own the arrays and perform operations, and one to contain `main()` and handle the menu.
-- Keep array fields private.
 - Use `Scanner`, loops, conditions, and methods.
 - Display the menu repeatedly until Exit is selected.
 - Keep records in memory while the program runs.
@@ -76,8 +75,8 @@ Display player numbers in ascending order when showing scores, winners, or quali
 Suggested fields in `ScoreTracker`:
 
 ```java
-private int[] scores = new int[5];
-private int count = 0;
+public int[] scores = new int[5];
+public int count = 0;
 ```
 
 | Suggested method | Responsibility |
