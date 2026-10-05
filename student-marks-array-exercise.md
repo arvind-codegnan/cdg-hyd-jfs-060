@@ -181,5 +181,5 @@ Each row describes a separate case.
 - Ensure updating a mark does not change the number of recorded students.
 - Produce the sample results and handle the validation cases above.
 
-**Skills practised:** arrays, indexes, loops, conditions, classes, objects, methods, and console input.
+**Skills practised:** arrays, indexes, loops, conditions, classes, objects, and methods.
 
