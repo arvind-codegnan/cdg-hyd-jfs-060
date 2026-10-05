@@ -2,9 +2,8 @@
 
 ## Student Marks Array Exercise
 
-**Level:** Beginner  
 **Application:** Interactive console application  
-**Approach:** Object-oriented programming with a one-dimensional array
+**Approach:** Object-oriented programming with arrays
 
 ## 1. Problem statement
 
