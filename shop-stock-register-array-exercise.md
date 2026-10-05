@@ -8,7 +8,6 @@
 Implementation requirements:
 
 - Use two classes: one to own the arrays and perform operations, and one to contain `main()` and handle the menu.
-- Keep array fields private.
 - Use `Scanner`, loops, conditions, and methods.
 - Display the menu repeatedly until Exit is selected.
 - Keep records in memory while the program runs.
@@ -82,8 +81,8 @@ After successfully adding or selling stock, display the product's updated quanti
 Suggested fields in `StockRegister`:
 
 ```java
-private String[] productNames = {"Pen", "Notebook", "Pencil"};
-private int[] quantities = {10, 5, 8};
+public String[] productNames = {"Pen", "Notebook", "Pencil"};
+public int[] quantities = {10, 5, 8};
 ```
 
 | Suggested method | Responsibility |
