@@ -1,4 +1,6 @@
-# Student Marks Array Exercise
+# CDG-HYD-JFS-060
+
+## Student Marks Array Exercise
 
 **Level:** Beginner  
 **Application:** Interactive console application  
