@@ -75,7 +75,7 @@ Each booking or cancellation changes only the selected seat.
 Suggested field in `SeatBooking`:
 
 ```java
-private boolean[] booked = new boolean[5];
+public boolean[] booked = new boolean[5];
 ```
 
 | Suggested method | Responsibility |
