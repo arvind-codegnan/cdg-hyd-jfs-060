@@ -232,7 +232,6 @@ Each row describes a separate case.
 - Validate the menu choice and payment amount.
 - Keep menu handling and input reading in `PaymentApplication`.
 - Repeat the menu until the user chooses Exit.
-- Do not use real payment credentials or connect to a payment gateway.
 
 **Skills practised:** interfaces, `implements`, method implementation, abstraction, polymorphism, interface references, classes, objects, `switch`, validation, and console input.
 
@@ -240,6 +239,5 @@ Each row describes a separate case.
 
 1. Add a `String getPaymentMethod()` method to the interface and implement it in all three classes.
 2. Add a fourth implementation, `WalletPayment`, without changing the existing payment classes.
-3. Move payment-object creation into a separate method that returns a `Payment` reference.
-4. Add a `PaymentService` class that accepts a `Payment` object and calls `pay(amount)`.
-5. Explore why `Payment payment = new UpiPayment();` is valid, but `Payment payment = new Scanner(System.in);` is not.
+3. Add a `PaymentService` class that accepts a `Payment` object and calls `pay(amount)`.
+4. Explore why `Payment payment = new UpiPayment();` is valid.
