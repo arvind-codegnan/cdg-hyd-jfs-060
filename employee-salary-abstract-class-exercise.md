@@ -1,4 +1,4 @@
-# CDG-HYD-JFS-062
+# CDG-HYD-JFS-060
 
 ## Employee Salary Calculator Abstract Class Exercise
 
@@ -239,8 +239,6 @@ Each row describes a separate case.
 - Keep menu handling and input reading in `EmployeeSalaryApplication`.
 - Repeat the menu until the user chooses Exit.
 
-**Skills practised:** abstract classes, abstract methods, concrete methods, inheritance, `extends`, constructors, `super`, method overriding, runtime polymorphism, encapsulation, validation, and console input.
-
 ## 9. Optional extensions
 
 1. Add a `ContractEmployee` subclass that calculates payment using a contract amount.
@@ -248,3 +246,5 @@ Each row describes a separate case.
 3. Add a concrete method `isEligibleForBonus()` to `Employee`, with a shared default rule based on calculated salary.
 4. Create an `Employee` array to store multiple employee objects and display their salaries in a loop.
 5. Compare the design with an interface-based solution: identify which shared state and concrete behavior make an abstract class useful here.
+
+**Skills practised:** abstract classes, abstract methods, concrete methods, inheritance, `extends`, constructors, `super`, method overriding, runtime polymorphism, encapsulation, validation, and console input.
