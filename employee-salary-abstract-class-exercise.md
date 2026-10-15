@@ -2,7 +2,6 @@
 
 ## Employee Salary Calculator Abstract Class Exercise
 
-**Level:** Beginner  
 **Application:** Interactive console application  
 **Approach:** Object-oriented programming using an abstract class and subclasses
 
@@ -59,7 +58,7 @@ For each calculation, display the employee type, employee name, and calculated s
 
 ## 5. Suggested object-oriented design
 
-Create four required types: one abstract class, two concrete subclasses, and one application class.
+Create four required types: one abstract class, two concrete subclasses, and one program class.
 
 ### Abstract class: `Employee`
 
@@ -166,19 +165,6 @@ employee.displayDetails();
 ```
 
 Adapt this pattern to your menu and validation logic. Validate all input before creating the employee object.
-
-### Suggested project structure
-
-```text
-EmployeeSalaryCalculator/
-└── src/
-    ├── Employee.java
-    ├── FullTimeEmployee.java
-    ├── PartTimeEmployee.java
-    └── EmployeeSalaryApplication.java
-```
-
-**Important:** Do not put all salary calculations inside `main()`. Each subclass must implement `calculateSalary()` according to its own salary rules. The application should use an `Employee` reference to work with either subclass.
 
 ## 6. Sample console session
 
