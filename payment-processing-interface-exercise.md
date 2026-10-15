@@ -1,8 +1,7 @@
-# CDG-HYD-JFS-061
+# CDG-HYD-JFS-060
 
 ## Payment Processing Interface Exercise
 
-**Level:** Beginner  
 **Application:** Interactive console application  
 **Approach:** Object-oriented programming using an interface and implementing classes
 
@@ -153,20 +152,6 @@ Adapt the control flow as needed so that an invalid menu choice does not termina
 ### Class 5: `PaymentDemo` (optional)
 
 If you want to keep the application class focused on user interaction, create a separate demo class to demonstrate polymorphism by passing different implementations through a `Payment` reference. This class is optional; the main exercise can be completed with the four required types above.
-
-### Suggested project structure
-
-```text
-PaymentProcessingSystem/
-└── src/
-    ├── Payment.java
-    ├── CreditCardPayment.java
-    ├── UpiPayment.java
-    ├── BankTransferPayment.java
-    └── PaymentApplication.java
-```
-
-**Important:** Keep the interface and implementation classes separate. Do not place all payment behavior inside `main()`, and do not use `if-else` statements inside one class to simulate all three payment implementations.
 
 ## 6. Sample console session
 
