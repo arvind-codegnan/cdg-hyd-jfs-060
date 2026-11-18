@@ -1,6 +1,6 @@
-# SQL Exercise Pack 1
+# CDG-HYD-JFS-060
 
-## Purpose
+## SQL Exercise Pack 1
 
 This pack contains 10 standalone-table exercises. Each table uses only `INT` and `VARCHAR` data types. No SQL constraints are used.
 
