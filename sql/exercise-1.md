@@ -2,21 +2,16 @@
 
 ## Purpose
 
-This exercise pack contains 10 standalone-table exercises. Each table uses only INT, DECIMAL, VARCHAR, and DATE data types. No SQL constraints are used.
+This exercise pack contains 10 standalone-table exercises. 
 
 Learners will practise:
 
-- creating tables using the four permitted data types;
-- understanding that columns have no how columns are defined without any constraints;
+- creating tables using the three permitted data types;
 - inserting single and multiple rows;
 - updating individual and multiple rows; and
 - deleting rows safely using precise WHERE conditions.
 
-SQL solutions are intentionally omitted.
-
-All columns are deliberately defined without constraints. Event start and end values are stored as DATE, so time-of-day information is not retained.
-
-## New Tables
+## Tables
 
 1. `courses`
 2. `instructors`
@@ -32,19 +27,13 @@ All columns are deliberately defined without constraints. Event start and end va
 ## Environment and Safety Rules
 
 - Use a separate practice database.
-- Use only `INT`, `DECIMAL`, `VARCHAR`, and `DATE` for column definitions.
-- Do not define any constraints or automatic value-generation rules.
-- All columns are nullable unless otherwise handled by the application; do not add `NOT NULL`.
-- Supply values explicitly when inserting sample records. Columns omitted from an INSERT may contain `NULL`.
-- Before every `UPDATE` or `DELETE`, execute a `SELECT` using the same WHERE condition.
-- Treat each deletion as permanent and verify the target carefully.
-- Never omit a WHERE clause from an UPDATE or DELETE unless an exercise explicitly requires every row to be affected.
+- Use only `INT` and `VARCHAR` for column definitions.
 
 ## Recommended Order for Every Use Case
 
 1. Read the scenario and column requirements.
 2. Write and execute the `CREATE TABLE` statement.
-3. Inspect the structure using `DESCRIBE` and `SHOW CREATE TABLE`.
+3. Inspect the structure using `DESCRIBE` OR `SHOW CREATE TABLE`.
 4. Complete the valid insert exercises.
 5. Review inserted rows using SELECT.
 6. Complete the update exercises.
